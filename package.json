@@ -1,0 +1,21 @@
+{
+    "name": "nighty-night",
+    "displayName": "nighty-night",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nighty",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nighty-color-theme.json"
+            }
+        ]
+    }
+}
