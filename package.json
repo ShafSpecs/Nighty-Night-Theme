@@ -1,18 +1,27 @@
 {
     "name": "nighty-night",
-    "displayName": "nighty-night",
-    "description": "",
-    "version": "0.0.1",
+    "displayName": "Nighty Night 🌙",
+    "description": "Ride On smoothly through your code with Nighty Night and experience your wildest dreams come true.",
+    "version": "1.0.0",
+    "publisher": "ShafSpecs",
     "engines": {
         "vscode": "^1.63.0"
     },
     "categories": [
         "Themes"
     ],
+    "author": {
+        "name": "Abdur-Rahman ShafSpecs",
+        "url": "https://github.com/ShafSpecs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ShafSpecs/Nighty-Night-Theme.git"
+    }
     "contributes": {
         "themes": [
             {
-                "label": "Nighty",
+                "label": "Nighty Night 🌙",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Nighty-color-theme.json"
             }
