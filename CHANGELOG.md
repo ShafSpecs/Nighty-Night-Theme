@@ -1,9 +1,14 @@
-# Change Log
+# Nighty Night Theme 🌙
 
-All notable changes to the "nighty-night" extension will be documented in this file.
+## 1.1.0
+> 2022-01-10
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Revamped background color and UI color contrast.
+- Improved color contrast for variables and strings
+- Updated README and Gallery
 
-## [Unreleased]
+## 1.0.0
 
-- Initial release
+> 2022-01-09
+
+Initial Release of theme

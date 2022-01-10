@@ -27,7 +27,7 @@
 		{
 			"name": "Variables",
 			"scope": [
-				"variable",
+				"variable.other.readwrite",
 				"string constant.other.placeholder"
 			],
 			"settings": {
@@ -36,9 +36,10 @@
 		},
 		// "foreground": "#ADBAC7"			
 		{
-			"name": "Colors",
+			"name": "Colors, JSX Tags",
 			"scope": [
-				"constant.other.color"
+				"constant.other.color",
+				"meta.jsx",
 			],
 			"settings": {
 				"foreground": "#d3d3d3"
@@ -89,12 +90,12 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"punctuation.definition.string",
-				"punctuation.definition.string",
 				"punctuation.definition.dictionary",
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
 				"entity.name.tag.css",
 				"punctuation.definition.entity",
+				"punctuation.separator.comma",
 			],
 			"settings": {
 				"foreground": "#529BF5"
@@ -120,7 +121,7 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
 			],
 			"settings": {
 				"foreground": "#92b5ff"
@@ -129,17 +130,19 @@
 		{
 			"name": "Block Level Variables",
 			"scope": [
-				"meta.block variable.other"
+				"variable.other",
+				"meta.block",
 			],
 			"settings": {
 				"foreground": "#f07178"
 			}
 		},
 		{
-			"name": "Other Variable, String Link",
+			"name": "Other Variable, String Link, Quoted Strings",
 			"scope": [
 				"support.other.variable",
-				"string.other.link"
+				"string.other.link",
+				"string.quoted"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -177,7 +180,7 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Support, Arrays",
 			"scope": [
 				"entity.name",
 				"support.type",
@@ -186,7 +189,9 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"pattern.array",
+				"punctuation.definition.binding-pattern.array"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -204,7 +209,8 @@
 		{
 			"name": "Entity Types",
 			"scope": [
-				"support.type"
+				"support.type",
+				"variable.other.constant"
 			],
 			"settings": {
 				"foreground": "#B2CCD6"
@@ -271,7 +277,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#3fb1df"
+				"foreground": "#59c4ee"
 			}
 		},
 		{
@@ -378,6 +384,16 @@
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#ff5353"
+			}
+		},
+		{
+			"name": "Objects",
+			"scope": [
+				"meta.object-literal.key",
+				"meta.object"
+			],
+			"settings": {
+				"foreground": "#ff8800"
 			}
 		},
 		{
