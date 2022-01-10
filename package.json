@@ -4,6 +4,7 @@
     "description": "Ride On smoothly through your code with Nighty Night and experience your wildest dreams come true.",
     "version": "1.1.0",
     "publisher": "ShafSpecs",
+    "icon": "./image/logo.png",
     "engines": {
         "vscode": "^1.63.0"
     },
