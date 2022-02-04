@@ -31,7 +31,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#ff8534"
+				"foreground": "#ff8c40"
 			}
 		},
 		// "foreground": "#ADBAC7"			
@@ -63,7 +63,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#cda3e9"
 			}
 		},
 		{
@@ -295,6 +295,7 @@
 			"name": "CSS Classes",
 			"scope": [
 				"entity.other.attribute-name.class"
+
 			],
 			"settings": {
 				"foreground": "#ffa600"
