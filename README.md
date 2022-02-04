@@ -32,7 +32,7 @@ To contribute to Nighty Night:
 
 4. Open Settings ⚙ (At the bottom of the status bar) > Color Theme [`CTRL + K` `CTRL + T`] and select "Nighty Night 🌙".
 
-5. Make changes to the [`/themes/Nighty-color-theme.jons file`](https://github.com/ShafSpecs/Nighty-Night-Theme/blob/main/themes/Nighty-color-theme.json).
+5. Make changes to the [`/themes/Nighty-color-theme.jons`](https://github.com/ShafSpecs/Nighty-Night-Theme/blob/main/themes/Nighty-color-theme.json) file.
 
 > UI: For all changes to the "outer UI", like (status bar, file navigation etc.), take a look at the [Theme Color](https://code.visualstudio.com/api/references/theme-color) reference.
 
